@@ -1,0 +1,355 @@
+  .container{
+    margin-left: 5%;
+  }
+  
+  #contact h3{
+    color: white;
+  }
+  .fix{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+  }
+.navbar-brand {
+    font-family: 'Dela Gothic One', cursive;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    overflow: hidden;
+    float: left;
+    list-style: none;
+  }
+  li{
+    float: left;
+  }
+  #home img{
+    width: 105%;
+  }
+  h1 {
+    font-family: 'Dela Gothic One', cursive;
+  }
+  #home h1 {
+    margin-bottom: 0;
+    font-size: 3.7rem;
+  }
+  #home{
+    padding-top: 12%;
+    margin-right: 1.875rem;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 15%;
+  }
+  #home .container{
+    margin-top: 10%;
+  }
+  .fix{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+  }
+  .cursor::after {
+    content: "";
+    display: inline-block;
+    background-color: #000;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+  }
+  #home .output h3 {
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 0;
+  }
+
+  .snip1198 {
+    font-family: 'Raleway', Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  .snip1198 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+  }
+  .snip1198 li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0.4em 0.8em;
+    padding: 0;
+  }
+  .snip1198 a {
+    padding: 0 0.7em;
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .snip1198 a:before {
+    position: absolute;
+    content: '';
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+    opacity: 0;
+    left: 15%;
+    right: 15%;
+    top: 0;
+    bottom: 0;
+    border-left: 3px solid #27ae60;
+    border-right: 3px solid #27ae60;
+  }
+  .snip1198 a:hover,
+  .snip1198 .current a {
+    color: #ffffff;
+  }
+  .snip1198 a:hover:before,
+  .snip1198 .current a:before {
+    opacity: 1;
+    left: 0;
+    right: 0;
+  }
+  @media (max-width: 990px){
+    .snip1198 a:before{
+      border-left: 3px solid #292f36;
+    border-right: 3px solid #292f36;
+    z-index: -1;
+    }
+  }
+  .hvr-grow-rotate {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  
+  .hvr-grow-rotate:hover,
+  .hvr-grow-rotate:focus,
+  .hvr-grow-rotate:active {
+    -webkit-transform: scale(1.1) rotate(4deg);
+    transform: scale(1.1) rotate(4deg);
+  }
+  .fa-github {
+    color: black;
+  }
+  .fa-linkedin{
+    color:dodgerblue;
+  }
+  .fa-envelope{
+   color: orangered;
+  }
+  #home ul{
+    margin: 0;
+    margin-top: 3%;
+    padding: 0;
+    list-style: none;
+    display: block;
+    overflow: hidden;
+  }
+  
+  #home ul li{
+    float: left;
+  }
+  #home .fa{
+    margin: 0 1.25rem;
+  }
+  .fa{
+    text-align: center;
+    font-size: 3.375rem;
+    width: 3.75rem;
+  }
+  #about{
+    background-color: rgb(217, 241, 245);
+    border-top-left-radius: 75%;
+    border-top-right-radius: 25%;
+    padding-bottom: 6rem;
+  }
+  .section-h{
+    margin-top: 0;
+    padding: 5% 0;
+    text-align: center;
+    font-family: 'Dela Gothic One', cursive;
+  }
+  #about img{
+    padding-right: 0;
+    width: 25rem;
+    border-radius: 2%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; 
+  }
+  #about h2 {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 100;
+    font-size: 1.6rem;
+  }
+  #work img{
+    width: 100%;
+  }
+  #work .links a{ 
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Georama', sans-serif;
+  }
+  #work .stacks{
+    color: #fff;
+    background-color: red;
+    font-family: 'Georama', sans-serif;
+  }
+  #skills{
+    background-color: rgb(217, 241, 245);
+    padding-bottom: 5%;
+  }
+  #skills .web-section img{
+    width: 9.375rem;
+    text-align: center;
+  }
+  #skills .description{
+    background: #292f36;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    text-align: center;
+    color: #fff;
+  }
+  #skills h2{
+    font-weight: 200;
+    font-size: 1.9rem;
+  }
+  #skills .container{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .border-bottom{
+    padding-bottom: 5%;
+    box-shadow: 0 1em 1em -1em rgba(0, 0, 0, .25);
+  }
+  .col {
+    display: block;
+    float:left;
+    margin: 1% 0 1% 1.6%;
+  }
+ .cp-section{
+  padding-top: 5%;
+ }
+ #skills .cp-section img{
+  width: 12rem;
+}
+#skills .cp-section .languages{
+width: 5rem;
+}
+#skills .small-screen{
+  display: none !important;
+}
+#contact .section-h{
+  padding-bottom: 0;
+}
+.message{
+  color: white;
+}
+#contact i{
+  font-size: 4.5rem;
+  width: 5rem;
+}
+#contact .row .fa-github{
+  background-color: #fff;
+  border-radius: 10%;
+}
+
+#contact .social-icons{
+  display: inline;
+}
+#contact img{
+  width: 5rem;
+  border-radius: 8%;
+}
+.contact-container{
+  text-align: center;
+}
+#contact .contact-section{
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#contact .message{
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#footer{
+  color: white;
+  margin-top: 5%;
+  margin-bottom: 0;
+}
+
+#footer h4{
+font-size: 1.2rem;
+}
+@media (max-width: 990px){
+  #footer h4{
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 990px){
+  #contact{
+    padding-top: 5%;
+  }
+
+  #contact h3{
+    color: white;
+  }
+
+  #contact .mb-5{
+    margin-bottom: 0 !important;
+  }
+
+  #contact .message{
+    margin: 3%;
+  }
+  
+
+  #contact img{
+    width: 3.2rem;
+    border-radius: 8%;
+  }
+
+  #contact .container-fluid{
+    padding-right: 0;
+  }
+
+  #about{
+    padding-bottom: 2%;
+  }
+  #about img{
+    display: block;
+    max-width: 100%;
+      margin-bottom: 5%;
+  }
+  #about h2{
+    font-size: 1.2rem;
+  }
+
+  #skills .web-section img{
+    width: 7rem;
+    text-align: center;
+  }
+  #skills .big-screen{
+    display: none !important;
+  }
+  #skills .small-screen{
+    display: block !important;
+  }
+  #skills .cp-section img{
+    width: 10rem;
+  }
+  #skills .cp-section .languages{
+  width: 5rem;
+  }
+}
